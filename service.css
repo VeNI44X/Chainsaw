@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    background-color: rgb(0, 0, 0);
+    gap: 1rem;
+    
+    padding: 1rem;
+
+
+}
+
+i{
+    color: white;
+    
+}
+a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu-box{
+    display: none;
+}
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+  background-color: rgb(226, 226, 226)    ;
+}
+.section-wot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+   
+    object-fit: cover;
+    
+    
+}
+.sec3s{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+}
+
+.box-two1{
+    overflow: hidden;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.gap{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 98, 136);
+}
+
+
+
+.section-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+}
+.two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heros{
+    background-color: black;
+    width: 100%;
+}
+
+.hero {
+ 
+    padding: 50px 20px;
+    color: #030303;
+    ;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+   background-color: #141414;
+   
+}
+
+.service-box {
+    width: 250px;
+    padding: 20px;
+    background: rgba(197, 38, 38, 0.8);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-image: url('');
+}
+
+.service-box:hover {
+    transform: scale(1.1);
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cta {
+    background: rgb(225, 253, 67);
+    padding: 30px;
+    height: 150px;
+    width: 100%;
+}
+
+.btn {
+    background: rgb(163, 156, 156);
+    color: white;
+    padding: 5px 10px;
+   
+    
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+h3{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+.hero{
+    background-color: rgb(225, 253, 67);
+}
+h2{
+    color: rgb(238, 231, 231);
+    margin: 10px;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+

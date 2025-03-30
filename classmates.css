@@ -1,0 +1,126 @@
+*{
+    margin: 0   ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.hero {
+    background: url('Chainsawman.webp') no-repeat center center/cover;
+    padding: 50px 20px;
+    color: white;
+    background-position: center;
+    height: 299px;
+    background-attachment: fixed;
+}
+
+.classmates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.classmate {
+    width: 250px;
+    padding: 20px;
+    background: rgba(164, 212, 50);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.classmate:hover {
+    transform: scale(1.1);
+}
+
+.classmate img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    background-color: rgb(0, 0, 0);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.gap{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(250, 98, 136);
+}
+
+a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+  background-color: rgb(255, 255, 255)    ;
+}
+.cm{
+    background-color: rgb(0, 0, 0);
+}
+
+.social-icons i {
+    color: white;
+}
+h3{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+h1{
+    font-size: xx-large;
+    color: rgb(164, 212, 50);
+}
+
+@media (max-width: 1024px) {
+    .sec3{
+        grid-template-columns: repeat(2, 1fr);
+        height: 1500px;
+        
+       
+    }
+    .section-two{
+        height: 1500px;
+    }
+    
+    .overlay-text{
+        display:none;
+    }
+   
+    a{
+        display: none;
+    }
+    .menu-box{
+        display: show;
+        color: white;
+    }
+
+
+    button{
+        display: none;
+    }
+   
+    
+}
